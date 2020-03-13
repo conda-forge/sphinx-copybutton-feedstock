@@ -1,5 +1,5 @@
 {% set name = "sphinx-copybutton" %}
-{% set version = "0.2.8" %}
+{% set version = "0.2.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 48aec91c44af057e4a59fba962493e09dd992b13d2555d5776e8a701420a5308
+  sha256: 26d1f8e17a5290966179ec72536ee5224cc06e43325ffcb302b124ba20e93863
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -34,7 +34,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'A small sphinx extension to add a "copy" button to code blocks.'
+  summary: A small sphinx extension to add a "copy" button to code blocks.
 
 extra:
   recipe-maintainers:
