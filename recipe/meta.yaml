@@ -1,5 +1,5 @@
 {% set name = "sphinx-copybutton" %}
-{% set version = "0.2.11" %}
+{% set version = "0.2.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cf3bb6dc4b82217fe1a765d733aa478949ae8574670aa2c5e7c94de81326ad50
+  sha256: 9492883786984b6179c92c07ab0410237b26efa826adfa792acfd17b91a63e5c
 
 build:
   number: 0
