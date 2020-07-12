@@ -29,7 +29,7 @@ test:
     - sphinx_copybutton
 
 about:
-  home: https://github.com/choldgraf/sphinx-copybutton
+  home: https://github.com/executablebooks/sphinx-copybutton
   license: MIT
   license_family: MIT
   license_file: LICENSE
