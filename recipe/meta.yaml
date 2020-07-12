@@ -18,12 +18,12 @@ requirements:
   host:
     - python >=3
     - pip
-    - sphinx
+    - sphinx >= 1.8
     - flit
   run:
     # building needs python 3, but apparently can run on python 2
     - python
-    - sphinx
+    - sphinx >= 1.8
 
 test:
   imports:
