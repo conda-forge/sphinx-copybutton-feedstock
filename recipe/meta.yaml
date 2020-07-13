@@ -18,11 +18,11 @@ requirements:
   host:
     - python >=3
     - pip
-    - sphinx >= 1.8
+    - sphinx >=1.8
   run:
     # building needs python 3, but apparently can run on python 2
     - python
-    - sphinx >= 1.8
+    - sphinx >=1.8
 
 test:
   imports:
