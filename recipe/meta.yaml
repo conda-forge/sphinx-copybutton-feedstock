@@ -10,7 +10,7 @@ source:
   sha256: 9492883786984b6179c92c07ab0410237b26efa826adfa792acfd17b91a63e5c
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -18,19 +18,18 @@ requirements:
   host:
     - python >=3
     - pip
-    - sphinx
-    - flit
+    - sphinx >=1.8
   run:
     # building needs python 3, but apparently can run on python 2
     - python
-    - sphinx
+    - sphinx >=1.8
 
 test:
   imports:
     - sphinx_copybutton
 
 about:
-  home: https://github.com/choldgraf/sphinx-copybutton
+  home: https://github.com/executablebooks/sphinx-copybutton
   license: MIT
   license_family: MIT
   license_file: LICENSE
