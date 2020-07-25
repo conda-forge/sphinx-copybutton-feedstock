@@ -5,7 +5,7 @@ Home: https://github.com/choldgraf/sphinx-copybutton
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A small sphinx extension to add a "copy" button to code blocks.
 
