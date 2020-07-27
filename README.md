@@ -117,5 +117,6 @@ Feedstock Maintainers
 =====================
 
 * [@choldgraf](https://github.com/choldgraf/)
+* [@chrisjsewell](https://github.com/chrisjsewell/)
 * [@hmaarrfk](https://github.com/hmaarrfk/)
 
