@@ -20,8 +20,7 @@ requirements:
     - pip
     - sphinx >=1.8
   run:
-    # building needs python 3, but apparently can run on python 2
-    - python
+    - python >=3
     - sphinx >=1.8
 
 test:
