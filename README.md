@@ -5,11 +5,9 @@ Home: https://github.com/executablebooks/sphinx-copybutton
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx-copybutton-feedstock/blob/master/LICENSE.txt)
 
 Summary: A small sphinx extension to add a "copy" button to code blocks.
-
-
 
 Current build status
 ====================
