@@ -36,5 +36,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - conda-forge/sphinx
     - hmaarrfk
     - choldgraf
