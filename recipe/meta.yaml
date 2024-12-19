@@ -18,7 +18,6 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - sphinx >=1.8
   run:
     - python >={{ python_min }}
     - sphinx >=1.8
@@ -26,8 +25,11 @@ requirements:
 test:
   requires:
     - python {{ python_min }}
+    - pip
   imports:
     - sphinx_copybutton
+  commands:
+    - pip check
 
 about:
   home: https://github.com/executablebooks/sphinx-copybutton
